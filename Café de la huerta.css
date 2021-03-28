@@ -1,0 +1,617 @@
+body {
+	margin: 0;
+}
+
+
+
+.encabezado{
+	background-color: rgba(0,0,0,0.5);
+	margin: 0;
+	width: 1366px;
+	position: fixed;
+	z-index: 100;
+	height: 10rem;
+	margin-right: 0;
+	
+}
+
+
+.logo{
+	width: 550px;
+}
+nav{
+
+	align-items: center;
+	min-height: 8vh;
+	background-color: rgba(0,0,0,0.6);
+	height: 10rem;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	transition: all 0.8s ease;
+	
+	
+
+}
+.container{
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.img{
+	position: relative;
+	width: 100%
+}
+
+
+.centradoo{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	color: white;
+	font-size: 60px;
+	transform: translate(-50%,-50%);
+	font-weight: 900;
+	font-family: georgia;
+}
+.subtituloo{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	color: white;
+	font-size: 25px;
+	transform: translate(-50%,-50%);
+	font-family: georgia;
+
+}
+.ham{
+	display: none;
+	cursor: pointer;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0,0,0,0);
+	transition:0.6s 0.1s;
+}
+.ham:hover{
+	transform: rotate(360deg);
+}
+.ham span{
+	display: block;
+	background-color: #f3f3f3;
+	height: 3px;
+	width: 28px;
+	margin:10px 0 auto;
+	border-radius: 2px;
+
+}
+.enlaces-menu{
+	position: relative;
+	display: flex;
+	padding: 0;
+}
+.enlaces-menu li{
+	padding: 0 40px;
+	list-style-type: none;
+	border-radius: 3px;
+	transition: 0.6s
+}
+
+.enlaces-menu li a {
+	text-decoration: none;
+	font-size: 1.8rem;
+	color: #f3f3f3;
+	font-weight: 600;
+}
+.enlaces-menu li:hover{
+	background-color: grey;
+}
+
+@Keyframes muestraMenu{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+.enlaces-menu.activado{
+	display: flex;
+	animation: muestraMenu 350ms ease-in-out both;
+
+}
+.br-1.animado{
+	transform: rotate(-45deg) translate(-10px,8px);
+}
+.br-2.animado{
+	opacity: 0;
+}
+.br-3.animado{
+	transform: rotate(45deg) translate(-10px,-8px);
+}
+.glutenfree{
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.fondo{
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.cubiertos{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	align-items: center;
+	transform: translate(-50%,-50%);
+}
+
+.textgluten{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	color: black;
+	font-size: 90px;
+	transform: translate(-50%,-50%);
+}
+
+
+
+.consultarG{
+	position: absolute;
+	top: 45%;
+	left:50%;
+	font-size: 28px;
+	transform: translate(-50%,-50%)
+}
+
+.caja-video{
+	width: 100%;
+	height: 45rem;
+	background-image: url(https://d1di2lzuh97fh2.cloudfront.net/files/2m/2ma/2marqc.jpg?ph=ed4fea2f33&t=1);
+	position: relative;
+}
+
+.video{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 70%;
+	height: 70%;
+	
+
+}
+
+.caja-celebra{
+	width: 100%;
+	z-index: 0;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 30rem;
+	overflow: hidden;
+
+
+}
+
+.img-celebra{
+    position: relative;
+	width: 100%;
+	
+}
+
+.celebra-con-nosotros{
+	position: absolute;
+	width: 80%;
+	top: 40%;
+	left: 50%;
+	color: black;
+	font-size: 60px;
+	transform: translate(-50%,-50%);
+}
+
+.sub-celebra{
+		position: absolute;
+	top: 60%;
+	left:50%;
+	font-size: 25px;
+	transform: translate(-50%,-50%)
+
+}
+.imagenes{
+	display: inline-block;
+	justify-content: space-around;
+	position: relative;
+	width: 100%;
+	height: 25rem;
+	
+}
+.img-1{
+position: absolute;
+ width: 300px;
+ top: 25%;
+ left:20%;
+ transform: translate(-50%,-50%)
+}
+.img-2{
+	position: absolute;
+    width: 300px;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+.img-3{
+	position: absolute;
+    width: 300px;
+    top: 25%;
+    left:80%;
+    transform: translate(-50%,-50%)
+}
+.final{
+	background-image:  url(https://i2.wp.com/cafedelahuerta.com/wp-content/uploads/2016/12/noname4.jpg?fit=640%2C425&ssl=1);
+	background-repeat: repeat;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 25rem;
+	overflow: hidden;
+	padding-top: 0;
+
+}
+
+.res{
+	padding-top: 0;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	color: white;
+	font-size: 60px;
+	transform: translate(-50%,-50%);
+
+}
+.horario{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	font-size: 20px;
+	transform: translate(-50%,-50%);
+	color:white;
+
+
+}
+.ubi{
+			position: absolute;
+	top: 60%;
+	left:50%;
+	font-size: 20px;
+	transform: translate(-50%,-50%);
+	color:white;
+}
+
+.btn{
+	cursor: pointer;
+	position: absolute;
+	top: 80%;
+	left:50%;
+	font-size: 20px;
+	transform: translate(-50%,-50%);
+	background-color: rgba(0,0,0,0.8);
+	border-width: 5px;
+	border-color: white;
+	width: 200px;
+	height: 70px;
+	transition: all 0.8s;
+}
+.btn:hover{
+	background-color: grey;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+.footer{
+	background-color: white ;
+	text-align: center;
+	height: 30px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	width: 100%;
+	position: sticky;
+
+}
+
+
+
+.ubicaciones{
+	position: relative;
+	height: 600px;
+	display: inline-block;
+	width: 100%;
+}
+.maps{
+	display: inline-block;
+	position: absolute;
+	top: 260px;
+	left:50px;
+	height: 400px;
+	width: 500px;
+}
+.ubi-1{
+
+position: relative;
+top: 100px;
+left:700px;
+width: 400px;
+
+}
+
+.ubi-1 img{
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	top: 35px;
+	left:-35px;
+}
+.text-sobre-nosotross{
+	margin: 5px 30px;
+}
+
+
+.bold{
+	top: 0;
+	font-size: 25px;
+	font-family: bold;
+
+}
+.grey{
+	font-size: 20px;
+	color: grey;
+}
+
+.footer{
+	width: 100%;
+}
+
+.texto-sobre-nosotros{
+	margin: 70px 200px;
+	font-family: georgia;
+}
+
+.texto-sobre-nosotros img{
+	width: 300px;
+	position:relative;
+	left:500;
+	padding: 10px;
+}
+
+.y3-img {
+		display: inline-block;
+	justify-content: space-around;
+	position: relative;
+	width: 100%;
+	height: 80rem;
+	top: 200px;
+
+}
+
+.y3-img img{
+	position: relative;
+	left:50%;
+	width: 700px;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+@media (max-width: 768px){
+ body{
+ 	overflow: hidden;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ 
+
+
+.
+ nav{
+ 	flex-direction: column;
+ 	align-items: flex-start;
+ 	height: 10rem;
+ 
+
+ }
+
+
+
+
+
+
+.enlaces-menu{
+	position: absolute;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+	top:100px;
+	right: 0px;
+
+}
+.ham{
+	display: block;
+	position: absolute;
+	top: 65px;
+	margin-left: 90%
+
+}
+
+.enlaces-menu li{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+
+.logo{
+	display: none;
+}
+.subtituloo{
+	display: none;
+}
+.centradoo{
+	font-size: 40px;
+}
+
+.textgluten{
+	font-size:30px;
+}
+.consultarG{
+	font-size: 11px;
+}
+.cubiertos{
+	width: 60px;
+}
+.caja-video{
+	height: 400px;
+}
+
+.celebra-con-nosotros{
+	position: absolute;
+	font-size: 30px;
+	top: 11%;
+}
+.sub-celebra{
+	font-size:11px;
+	top: 23%;
+}
+.imagenes{
+display: block;
+height: 110rem;
+	
+}
+.img-1{
+top: 10px;
+ left:50%;
+ width: 80%;
+ padding: 5px;
+ 
+}
+.img-2{
+top: 500px;
+    left:50%;
+    width: 80%;
+    
+}
+.img-3{
+   top: 990px;
+   padding: 5px;
+    left:50%;
+    width: 80%;
+;
+}
+.res{
+	font-size: 50px;
+	width: 80%;
+}
+.horario{
+	font-size: 21px;
+}
+.ubi{
+	font-size: 21px;
+}
+
+.ubicaciones{
+	position: relative;
+	height: 600px;
+	width: 100%;
+	display: inline-block;
+
+}
+
+.maps{
+	display: inline-block;
+	position: absolute;
+	top: 170px;
+	left:50%;
+	height: 150px;
+	width: 250px;
+	transform: translate(-50%,-50%);
+}
+.ubi-1{
+	top:200px;
+	left:130px;
+}
+
+.ubi-1 img{
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	top: 20px;
+	
+}
+.text-sobre-nosotross{
+	margin: 5px 30px;
+}
+
+
+.bold{
+	left:5px;
+	top: 10px;
+	font-size: 11px;
+	font-family: bold;
+
+
+}
+.grey{
+	font-size: 9px;
+	color: grey;
+}
+
+.texto-sobre-nosotros{
+	margin:2px 40px;
+	text-align: center;
+}
+
+.y3-img img{
+width: 300px;}
+
+.imagenes{
+height: 400px;
+	
+}
+.centradoo{
+	z-index: 999;
+}
+
+.final{
+	height: 200px;
+}
+.res{
+	font-size: 30px;
+}
+
+.horario{
+	font-size: 16px;
+}
+.ubi{
+	font-size: 16px;
+}
+.btn{
+	height: 40px;
+	width: 200px;
+	font-size: 15px;
+}
+}
+
